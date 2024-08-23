@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #dfcaa0;
+    color: white;
+    height: 100vh;
+    display: flex;
+}
+
+nav{
+    background-color: #CFB284;
+    width: 200px;
+    border-right: 3px solid #cfa86e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+nav>h1, 
+nav>button{
+    margin-bottom: 20px;
+}
+
+nav>h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+nav>button{
+    height: 100vh;
+    width: 180px;
+    font-size: 50px;
+    color: white;
+    border: 2px solid #dfcaa0;
+}
+
+#homeButton{
+    background-color: #cfa86e;
+}
+#homeButton:active{
+    background-color: #836a45;
+}
+
+
+#workButton{
+    background-color: #883c1e;
+}
+#workButton:active{
+    background-color: #502312;
+}
+
+.home{
+    /* display: none; */
+    flex-direction: column;
+    background-color: #dfcaa0;
+    width: 100%;
+}
+
+.home>header,
+.work>header{
+    display: flex;
+    padding: 5px;
+    background-color: #cfa86e;
+    justify-content: center;
+    align-items: center;
+}
+
+.home>header>button,
+.work>header>button{
+    margin-left: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.work{
+    display: none;
+    flex-direction: column;
+    background-color: #d4b474;
+    width: 100%;
+}
+
+.input{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* Here is the option for inputs */
+    display: none;
+}
+
+.inputSheet{
+    background-color: #502312;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.inputSheet>*{
+    margin: 20px;
+    font-size: 25px;
+}
+
+.inputSheet>div>input{
+    height: 30px;
+    font-size: 25px;
+    background-color: #502312;
+    color: white;
+    border: 1px solid white;
+}
+
+#entryHouse,
+#entryWork{
+    height: 50px;
+    background-color: #883c1e;
+    color: white;
+}
+
+#entryWork,
+#entryHouse{
+    display: none;
+}
+
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    background-color: #883c1e;
+}
+
+.container>h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.container>h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    opacity: 80%;
+}
+
+.container>h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.container>button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #502312;
+}
